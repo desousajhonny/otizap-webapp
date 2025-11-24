@@ -18,7 +18,7 @@ const NicheSelector = ({ currentNicheId, onSelectNiche }) => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
                 {nicheList.map((niche) => {
                     const Icon = niche.icon;
                     const isSelected = currentNicheId === niche.id;
@@ -30,8 +30,8 @@ const NicheSelector = ({ currentNicheId, onSelectNiche }) => {
                             whileTap={{ scale: 0.98 }}
                             onClick={() => onSelectNiche(niche.id)}
                             className={`relative flex flex-col items-center p-6 rounded-2xl border-2 transition-all duration-300 ${isSelected
-                                    ? 'border-primary bg-white shadow-lg ring-4 ring-primary/10'
-                                    : 'border-transparent bg-white shadow-sm hover:border-gray-200'
+                                ? 'border-primary bg-white shadow-lg ring-4 ring-primary/10'
+                                : 'border-transparent bg-white shadow-sm hover:border-gray-200'
                                 }`}
                         >
                             {isSelected && (

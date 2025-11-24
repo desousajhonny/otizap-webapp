@@ -1,4 +1,4 @@
-import { Home, Scissors, Stethoscope, GraduationCap, ShoppingBag, Briefcase } from 'lucide-react';
+import { Home, Scissors, Stethoscope, GraduationCap, ShoppingBag, Briefcase, MoreHorizontal } from 'lucide-react';
 
 export const niches = {
     default: {
@@ -75,6 +75,25 @@ export const niches = {
             author: "Dr. Paulo",
             role: "Dentista",
             metric: "Zero atrasos na agenda"
+        }
+    },
+    other: {
+        id: 'other',
+        name: 'Outro',
+        icon: MoreHorizontal,
+        headline: 'A IA que responde seus clientes e vende pra você.',
+        subhead: 'Converse, agende e organize tudo pelo WhatsApp.',
+        heroImage: 'default_chat.png',
+        steps: [
+            { title: 'Cliente chama', desc: 'Seu cliente manda mensagem no WhatsApp.' },
+            { title: 'IA responde', desc: 'A Otizap tira dúvidas e agenda horários.' },
+            { title: 'Você lucra', desc: 'Receba o pedido ou agendamento pronto.' }
+        ],
+        testimonial: {
+            quote: "A automação transformou meu atendimento.",
+            author: "Maria S.",
+            role: "Empresária",
+            metric: "Mais tempo livre"
         }
     }
 };
