@@ -13,6 +13,28 @@ export const niches = {
             { title: 'IA responde', desc: 'A Otizap tira dúvidas e agenda horários.' },
             { title: 'Você lucra', desc: 'Receba o pedido ou agendamento pronto.' }
         ],
+        howItWorks: [
+            {
+                title: "1. Cliente chama",
+                messages: [
+                    { type: 'user', text: "Olá, gostaria de saber mais sobre os serviços." },
+                    { type: 'bot', text: "Olá! Claro, como posso ajudar você hoje? 😊" }
+                ]
+            },
+            {
+                title: "2. IA responde",
+                messages: [
+                    { type: 'user', text: "Quais são os horários de atendimento?" },
+                    { type: 'bot', text: "Atendemos de segunda a sexta, das 9h às 18h. Quer agendar um horário?" }
+                ]
+            },
+            {
+                title: "3. Você lucra",
+                messages: [
+                    { type: 'bot', text: "Horário agendado com sucesso! Te esperamos na segunda às 10h. 😉" }
+                ]
+            }
+        ],
         testimonial: {
             quote: "Fecho 2x mais vendas com a Otizap.",
             author: "Carlos M.",
@@ -31,6 +53,28 @@ export const niches = {
             { title: 'Lead entra', desc: 'Interessado pergunta sobre um imóvel.' },
             { title: 'IA qualifica', desc: 'Otizap coleta dados e agenda a visita.' },
             { title: 'Visita feita', desc: 'Corretor recebe o agendamento pronto.' }
+        ],
+        howItWorks: [
+            {
+                title: "1. O cliente chama no WhatsApp",
+                messages: [
+                    { type: 'user', text: "Oi, vi um apartamento na Rua das Flores. Tá disponível?" },
+                    { type: 'bot', text: "Olá! Esse imóvel está disponível sim 😊 Você procura pra comprar ou alugar?" }
+                ]
+            },
+            {
+                title: "2. A Otizap resolve em segundos",
+                messages: [
+                    { type: 'user', text: "Pra comprar." },
+                    { type: 'bot', text: "Perfeito! Posso te mandar as fotos e agendar uma visita?" }
+                ]
+            },
+            {
+                title: "3. Você recebe o agendamento pronto",
+                messages: [
+                    { type: 'bot', text: "Visita confirmada! 🏡 Amanhã às 15h na Rua das Flores. Você receberá um lembrete automático 😉" }
+                ]
+            }
         ],
         testimonial: {
             quote: "Minha equipe não perde mais nenhum lead de portal.",
@@ -51,6 +95,28 @@ export const niches = {
             { title: 'IA agenda', desc: 'Otizap mostra a agenda e marca.' },
             { title: 'Salão cheio', desc: 'Você foca apenas em atender.' }
         ],
+        howItWorks: [
+            {
+                title: "1. O cliente chama no WhatsApp",
+                messages: [
+                    { type: 'user', text: "Tem horário pra corte e barba hoje?" },
+                    { type: 'bot', text: "Oi! Tenho horário livre às 16h e às 18h. Qual prefere? ✂️" }
+                ]
+            },
+            {
+                title: "2. A Otizap sugere horários e confirma",
+                messages: [
+                    { type: 'user', text: "Pode ser às 18h." },
+                    { type: 'bot', text: "Combinado! Seu corte está agendado para hoje às 18h." }
+                ]
+            },
+            {
+                title: "3. Você recebe o agendamento pronto",
+                messages: [
+                    { type: 'bot', text: "Lembrete: Seu corte é daqui a 1 hora! Te esperamos. 💈" }
+                ]
+            }
+        ],
         testimonial: {
             quote: "Reduzi as faltas em 80% com os lembretes automáticos.",
             author: "Juliana R.",
@@ -70,6 +136,28 @@ export const niches = {
             { title: 'IA tria', desc: 'Coleta dados e verifica disponibilidade.' },
             { title: 'Agenda lotada', desc: 'Médico recebe o paciente confirmado.' }
         ],
+        howItWorks: [
+            {
+                title: "1. O paciente chama no WhatsApp",
+                messages: [
+                    { type: 'user', text: "Olá, gostaria de marcar uma consulta com o Dr. Paulo." },
+                    { type: 'bot', text: "Olá! É primeira vez ou retorno? 🩺" }
+                ]
+            },
+            {
+                title: "2. A Otizap organiza e confirma a consulta",
+                messages: [
+                    { type: 'user', text: "É retorno." },
+                    { type: 'bot', text: "Certo. Temos vaga para quinta às 14h. Pode ser?" }
+                ]
+            },
+            {
+                title: "3. Você recebe o agendamento pronto",
+                messages: [
+                    { type: 'bot', text: "Agendado! Quinta-feira às 14h. Enviarei um lembrete no dia anterior. ✅" }
+                ]
+            }
+        ],
         testimonial: {
             quote: "Meus pacientes adoram a rapidez no agendamento.",
             author: "Dr. Paulo",
@@ -88,6 +176,28 @@ export const niches = {
             { title: 'Cliente chama', desc: 'Seu cliente manda mensagem no WhatsApp.' },
             { title: 'IA responde', desc: 'A Otizap tira dúvidas e agenda horários.' },
             { title: 'Você lucra', desc: 'Receba o pedido ou agendamento pronto.' }
+        ],
+        howItWorks: [
+            {
+                title: "1. Cliente chama",
+                messages: [
+                    { type: 'user', text: "Olá, gostaria de um orçamento." },
+                    { type: 'bot', text: "Oi! Com certeza. Para qual serviço você precisa de orçamento? 💼" }
+                ]
+            },
+            {
+                title: "2. IA responde",
+                messages: [
+                    { type: 'user', text: "Consultoria financeira." },
+                    { type: 'bot', text: "Ótimo! Vou te enviar nosso portfólio e preços agora mesmo." }
+                ]
+            },
+            {
+                title: "3. Você lucra",
+                messages: [
+                    { type: 'bot', text: "Proposta enviada! Quando podemos marcar uma reunião para fechar? 🤝" }
+                ]
+            }
         ],
         testimonial: {
             quote: "A automação transformou meu atendimento.",

@@ -24,7 +24,7 @@ const Header = () => {
                     className={`transition-all duration-300 ${isScrolled ? 'h-10 w-10' : 'h-12 md:h-10'}`}
                 />
                 <button
-                    className="px-4 py-2 md:px-6 font-medium text-white transition-transform hover:scale-105 text-sm md:text-base"
+                    className="px-4 py-2 md:px-6 font-bold text-white transition-transform hover:scale-105 text-sm md:text-base"
                     style={{
                         borderRadius: '100px',
                         border: '2px solid #84FE7B',
