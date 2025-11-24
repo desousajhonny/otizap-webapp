@@ -135,7 +135,7 @@ const Hero = ({ niche, onScrollToNiche }) => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={onScrollToNiche}
-                        className="hidden md:block font-bold py-4 px-8 text-lg shadow-lg shadow-black/20 transition-all w-full md:w-auto text-white"
+                        className="hidden md:block font-bold py-4 px-8 text-lg shadow-lg shadow-black/20 transition-all w-full md:w-auto text-white btn-shimmer"
                         style={{
                             borderRadius: '100px',
                             border: '2px solid #84FE7B',
@@ -211,7 +211,7 @@ const Hero = ({ niche, onScrollToNiche }) => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={onScrollToNiche}
-                        className="md:hidden font-bold py-4 px-8 text-lg shadow-lg shadow-black/20 transition-all w-full text-white mb-12"
+                        className="md:hidden font-bold py-4 px-8 text-lg shadow-lg shadow-black/20 transition-all w-full text-white mb-12 btn-shimmer"
                         style={{
                             borderRadius: '100px',
                             border: '2px solid #84FE7B',

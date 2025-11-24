@@ -55,7 +55,7 @@ const HowItWorks = ({ niche }) => {
                     <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="font-bold py-4 px-8 text-lg shadow-lg shadow-black/20 transition-all text-white"
+                        className="font-bold py-4 px-8 text-lg shadow-lg shadow-black/20 transition-all text-white btn-shimmer"
                         style={{
                             borderRadius: '100px',
                             border: '2px solid #84FE7B',
