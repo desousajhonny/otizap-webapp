@@ -71,7 +71,7 @@ const Hero = ({ niche, onScrollToNiche }) => {
     const actionWords = ["vende", "aluga", "agenda", "atende"];
 
     return (
-        <section className="relative flex flex-col md:flex-row items-center justify-between px-6 py-12 pt-20 md:pt-32 min-h-[85vh] md:min-h-[80vh] bg-gradient-to-b from-[#013B2B] to-[#00241a] overflow-hidden">
+        <section className="relative flex flex-col md:flex-row items-center justify-between px-6 py-12 pt-40 md:pt-32 min-h-[85vh] md:min-h-[80vh] bg-gradient-to-b from-[#013B2B] to-[#00241a] overflow-hidden">
 
             {/* Left Column: Text & CTA */}
             <motion.div
