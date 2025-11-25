@@ -7,10 +7,17 @@
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
+
   body {
     @apply text-gray-600 antialiased bg-white;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-gray-900 font-bold;
   }
 }
@@ -19,17 +26,16 @@
   .btn-shimmer {
     @apply relative overflow-hidden;
   }
-  
+
   .btn-shimmer::before {
     content: '';
     @apply absolute top-0 left-[-100%] w-full h-full;
-    background: linear-gradient(
-      90deg,
-      transparent,
-      rgba(255, 255, 255, 0.2),
-      transparent
-    );
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent);
     animation: shimmer 2s infinite;
+    animation-delay: var(--shimmer-delay, 0s);
   }
 }
 
@@ -37,6 +43,7 @@
   0% {
     left: -100%;
   }
+
   100% {
     left: 100%;
   }

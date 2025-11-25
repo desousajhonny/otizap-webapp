@@ -44,7 +44,7 @@ function App() {
         <HowItWorks niche={currentNiche} />
       </div>
       {/* <SocialProof niche={currentNiche} /> */}
-      <Pricing />
+      <Pricing niche={currentNiche} />
       <FinalCTA />
       <Footer />
     </Layout>

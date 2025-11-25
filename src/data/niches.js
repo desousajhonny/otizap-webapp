@@ -40,7 +40,39 @@ export const niches = {
             author: "Carlos M.",
             role: "Empreendedor",
             metric: "+1.200 conversas/mês"
-        }
+        },
+        pricing: [
+            {
+                name: "Inicial",
+                price: "R$119",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$149/mês (pagamento mensal)",
+                features: ["Automação de respostas no WhatsApp", "Agendamentos automáticos", "Relatório semanal simplificado"],
+                highlight: false,
+                buttonText: "Testar Inicial"
+            },
+            {
+                name: "Profissional",
+                price: "R$239",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$299/mês (pagamento mensal)",
+                features: ["Tudo do Inicial", "IA adaptada ao negócio", "Integração Google Agenda", "Relatórios avançados", "Suporte prioritário"],
+                highlight: true,
+                buttonText: "Testar Profissional"
+            },
+            {
+                name: "Avançado",
+                price: "R$399",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$499/mês (pagamento mensal)",
+                features: ["Tudo do Profissional", "Dashboard inteligente", "Reengajamento automático", "Atendimento em equipe", "Suporte premium"],
+                highlight: false,
+                buttonText: "Testar Avançado"
+            }
+        ]
     },
     real_estate: {
         id: 'real_estate',
@@ -81,7 +113,39 @@ export const niches = {
             author: "Ana Souza",
             role: "Corretora de Imóveis",
             metric: "+45 visitas agendadas/mês"
-        }
+        },
+        pricing: [
+            {
+                name: "Inicial",
+                price: "R$119",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$149/mês (pagamento mensal)",
+                features: ["Resposta instantânea no WhatsApp", "Agendamento automático de visitas", "Relatório semanal simplificado"],
+                highlight: false,
+                buttonText: "Testar Inicial"
+            },
+            {
+                name: "Profissional",
+                price: "R$239",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$299/mês (pagamento mensal)",
+                features: ["Tudo do Inicial", "Listagem de imóveis com fotos e links", "Portfólio profissional integrado", "Segmentação de leads", "Relatório semanal avançado"],
+                highlight: true,
+                buttonText: "Testar Profissional"
+            },
+            {
+                name: "Avançado",
+                price: "R$399",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$499/mês (pagamento mensal)",
+                features: ["Tudo do Profissional", "Dashboard de resultados", "Adição de imóveis via WhatsApp", "Assistente de conversão inteligente", "Suporte prioritário"],
+                highlight: false,
+                buttonText: "Testar Avançado"
+            }
+        ]
     },
     beauty: {
         id: 'beauty',
@@ -122,7 +186,39 @@ export const niches = {
             author: "Juliana R.",
             role: "Dona de Salão",
             metric: "Agenda 100% preenchida"
-        }
+        },
+        pricing: [
+            {
+                name: "Inicial",
+                price: "R$119",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$149/mês (pagamento mensal)",
+                features: ["Respostas automáticas no WhatsApp", "Confirmação e lembrete de horários", "Relatório semanal simplificado"],
+                highlight: false,
+                buttonText: "Testar Inicial"
+            },
+            {
+                name: "Profissional",
+                price: "R$239",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$299/mês (pagamento mensal)",
+                features: ["Tudo do Inicial", "IA treinada para salões", "Agenda inteligente integrada ao Google", "Segmentação de clientes", "Relatório semanal avançado"],
+                highlight: true,
+                buttonText: "Testar Profissional"
+            },
+            {
+                name: "Avançado",
+                price: "R$399",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$499/mês (pagamento mensal)",
+                features: ["Tudo do Profissional", "Dashboard de resultados", "Reativação automática de clientes", "Assistente de fidelização", "Suporte prioritário"],
+                highlight: false,
+                buttonText: "Testar Avançado"
+            }
+        ]
     },
     health: {
         id: 'health',
@@ -163,7 +259,39 @@ export const niches = {
             author: "Dr. Paulo",
             role: "Dentista",
             metric: "Zero atrasos na agenda"
-        }
+        },
+        pricing: [
+            {
+                name: "Inicial",
+                price: "R$119",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$149/mês (pagamento mensal)",
+                features: ["Agendamento automático no WhatsApp", "Confirmação e lembrete de consultas", "Relatório semanal simplificado"],
+                highlight: false,
+                buttonText: "Testar Inicial"
+            },
+            {
+                name: "Profissional",
+                price: "R$239",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$299/mês (pagamento mensal)",
+                features: ["Tudo do Inicial", "IA treinada para atendimento médico", "Integração Google Agenda", "Segmentação de pacientes", "Relatório semanal avançado"],
+                highlight: true,
+                buttonText: "Testar Profissional"
+            },
+            {
+                name: "Avançado",
+                price: "R$399",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$499/mês (pagamento mensal)",
+                features: ["Tudo do Profissional", "Dashboard de desempenho", "Adição rápida de consultas via WhatsApp", "Assistente de confirmação e follow-up", "Suporte prioritário"],
+                highlight: false,
+                buttonText: "Testar Avançado"
+            }
+        ]
     },
     other: {
         id: 'other',
@@ -204,6 +332,38 @@ export const niches = {
             author: "Maria S.",
             role: "Empresária",
             metric: "Mais tempo livre"
-        }
+        },
+        pricing: [
+            {
+                name: "Inicial",
+                price: "R$119",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$149/mês (pagamento mensal)",
+                features: ["Automação de respostas no WhatsApp", "Agendamentos automáticos", "Relatório semanal simplificado"],
+                highlight: false,
+                buttonText: "Testar Inicial"
+            },
+            {
+                name: "Profissional",
+                price: "R$239",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$299/mês (pagamento mensal)",
+                features: ["Tudo do Inicial", "IA adaptada ao negócio", "Integração Google Agenda", "Relatórios avançados", "Suporte prioritário"],
+                highlight: true,
+                buttonText: "Testar Profissional"
+            },
+            {
+                name: "Avançado",
+                price: "R$399",
+                period: "/mês",
+                annualDiscount: "pagando anualmente — 20% off",
+                normalPrice: "ou R$499/mês (pagamento mensal)",
+                features: ["Tudo do Profissional", "Dashboard inteligente", "Reengajamento automático", "Atendimento em equipe", "Suporte premium"],
+                highlight: false,
+                buttonText: "Testar Avançado"
+            }
+        ]
     }
 };
